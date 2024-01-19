@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux"
 
-import { addMessage, userSelector } from "../features/counter/usersReducer";
+import { addMessage, userSelector } from "../features/contact/usersReducer";
 
 import Styles from "./conversation.module.css";
 
