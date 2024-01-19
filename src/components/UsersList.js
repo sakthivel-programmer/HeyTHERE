@@ -1,6 +1,6 @@
 import Styles from "./userslist.module.css";
 
-import { userSelector,setCurrentConversation } from "../features/counter/usersReducer";
+import { userSelector,setCurrentConversation } from "../features/contact/usersReducer";
 
 import { useDispatch, useSelector } from "react-redux";
 
@@ -10,9 +10,9 @@ import addContact from "../images/add_contact.png";
 
 import search from "../images/search_contact.png";
 
-import { clearSearchResults } from "../features/counter/usersReducer";
+import { clearSearchResults } from "../features/contact/usersReducer";
 
-import { searchContact } from "../features/counter/usersReducer";
+import { searchContact } from "../features/contact/usersReducer";
 
 import { useRef } from "react";
 
