@@ -6,7 +6,7 @@ import {useState} from "react";
 
 import {useDispatch} from "react-redux";
 
-import { addContact } from "../features/counter/usersReducer";
+import { addContact } from "../features/contact/usersReducer";
 
 import { useNavigate } from "react-router-dom";
 
